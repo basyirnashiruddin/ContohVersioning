@@ -4,10 +4,10 @@ public class Pemain {
 	private String nama;
 	private int noPunggung;
 	
-	public Pemain(String nama, int noPunggung) {
+	public Pemain(String nama, int noPunggungs) {
 		super();
 		this.nama = nama;
-		this.noPunggung = noPunggung;
+		this.noPunggung = noPunggungs;
 	}
 
 	public String getNama() {

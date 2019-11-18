@@ -10,10 +10,11 @@ public class TimMain
     {
         Tim tim = new Tim("Persib");
 
-        Pemain pemain1 = new Pemain("I Made", 1);
-        Pemain pemain2 = new Pemain("Atep", 7);
-        Pemain pemain3 = new Pemain("Essien", 5);
+        tim.tambahPemainInti(new Pemain("I Made", 1));
+        tim.tambahPemainInti(new Pemain("Atep", 7));
+        tim.tambahPemainInti(new Pemain("Essien", 5));
+        tim.tambahPemainInti(new Pemain("Febry", 22));
         
-        tim.tambah
+        tim.tampilPemainInti();
     }
 }
